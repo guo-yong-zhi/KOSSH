@@ -1,0 +1,22 @@
+{
+	"items": [
+		{
+			"name": "KOSSH",
+			"priority": -1,
+			"items": [
+				{
+					"name": "Start",
+					"priority": 1,
+					"action": "./KOSSH.sh",
+					"param": ""
+				},
+				{
+					"name": "Stop",
+					"priority": 2,
+					"action": "./stop.sh",
+					"param": ""
+				}
+			]
+		}
+	]
+}
