@@ -1,6 +1,15 @@
 {
 	"items": [
-		{"name": "KOSSH", "priority": -1, "action": "./KOSSH.sh"}
+		{
+			"name": "Tools",
+			"priority": -10,
+			"items": [
+				{
+					"name": "KOSSH",
+					"priority": 100,
+					"action": "./KOSSH.sh"
+				}
+			]
+		}
 	]
 }
-
