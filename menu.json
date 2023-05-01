@@ -5,9 +5,14 @@
 			"priority": -10,
 			"items": [
 				{
-					"name": "KOSSH",
-					"priority": 100,
+					"name": "Start KOSSH",
+					"priority": 1,
 					"action": "./KOSSH.sh"
+				},
+				{
+					"name": "Stop KOSSH",
+					"priority": 2,
+					"action": "./stop_KOSSH.sh"
 				}
 			]
 		}
