@@ -6,12 +6,12 @@
 			"items": [
 				{
 					"name": "Start KOSSH",
-					"priority": 1,
+					"priority": 100,
 					"action": "./KOSSH.sh"
 				},
 				{
 					"name": "Stop KOSSH",
-					"priority": 2,
+					"priority": 100,
 					"action": "./stop_KOSSH.sh"
 				}
 			]
